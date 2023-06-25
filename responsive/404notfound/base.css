@@ -1,0 +1,14 @@
+@font-face {
+    font-family: SpaceMono ;
+    src: url(SpaceMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: SpacMono-Bold;
+    src: url(SpaceMono-Bold.ttf);
+}
+
+@font-face {
+    font-family: SpaceMono-Italic;
+    src: url(SpaceMono-Italic.ttf);
+}

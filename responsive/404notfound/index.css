@@ -1,16 +1,16 @@
 @font-face {
     font-family: SpaceMono;
-    src: url(SpaceMono-Regular.ttf);
+    src: url(./Assets/SpaceMono-Regular.ttf);
 }
 
 @font-face {
     font-family: SpacMono-Bold;
-    src: url(SpaceMono-Bold.ttf);
+    src: url(./Assets/SpaceMono-Bold.ttf);
 }
 
 @font-face {
     font-family: SpaceMono-Italic;
-    src: url(SpaceMono-Italic.ttf);
+    src: url(./Assets/SpaceMono-Italic.ttf);
 }
 body {
     height: 100vh;
@@ -30,7 +30,7 @@ body {
     align-items: center;
 }
 .content {
-    height: calc(100vh - 30px);
+    min-height: 100vh;
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
@@ -84,6 +84,7 @@ body {
     font-size: 14px;
     font-weight: 700;
     font-family: SpaceMono;
+    margin-top: 20px;
 }
 
 @media only screen and (max-width: 850px) {

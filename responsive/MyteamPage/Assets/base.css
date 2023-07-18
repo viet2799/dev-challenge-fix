@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Poppons-Black;
+    src: url(Poppins-Black.ttf);
+}
+@font-face {
+    font-family: Poppons-BlackItalic;
+    src: url(Poppins-BlackItalic.ttf);
+}
+@font-face {
+    font-family: Poppons-Bold;
+    src: url(Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppons-BoldItalic;
+    src: url(Poppins-BoldItalic.ttf);
+}
+@font-face {
+    font-family: Poppins-ExtraBold;
+    src: url(Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Poppins-EtraBlodItalic;
+    src: url(Poppins-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: Poppins-Light;
+    src: url(Poppins-Light.ttf);
+}
+@font-face {
+    font-family: Poppins-LightItalic;
+    src: url(Poppins-LightItalic.ttf);
+}
+@font-face {
+    font-family: PoppinsMedium;
+    src: url(Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: PoppinsMediumItalic;
+    src: url(Poppins-MediumItalic.ttf);
+}
+@font-face {
+    font-family: Poppin-regular;
+    src: url(Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: PTSerif-Regular;
+    src: url(PTSerif-Regular.ttf);
+}

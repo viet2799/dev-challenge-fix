@@ -1,0 +1,110 @@
+@import url(./Assets/base.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=PT+Serif:wght@700&family=Poppins:wght@400;600;700&display=swap");
+body {
+    padding: 0;
+    margin: auto;
+    height: 100vh;
+    max-width: 1124px;
+}
+
+/* header */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.title {
+    font-family: PTSerif-Regular;
+    margin-left: 70px;
+}
+.title-box {
+    max-width: 450px;
+    height: auto;
+    margin-right: 40px;
+}
+
+.title-top {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Poppin-regular;
+    line-height: 27px;
+}
+
+.title-bot {
+    height: auto;
+    font-size: 18px;
+    font-family: Poppin-regular;
+    font-weight: 400;
+}
+
+/* end header */
+
+/* main */
+.content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    height: auto;
+    margin-left: 70px;
+}
+img {
+    max-width: 250px;
+    height: auto;
+    object-fit: cover;
+}
+.job {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: PTSerif-Regular;
+    writing-mode: vertical-rl;
+    text-transform: uppercase;
+}
+.name {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Poppin-regular;
+}
+
+.middle {
+    margin-top: 110px;
+}
+footer {
+    text-align: center;
+    margin-top: 115px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #a9a9a9;
+}
+
+@media only screen and (max-width: 900px) {
+    header {
+        display: flex;
+        /* align-items: center; */
+        margin-bottom: 70px;
+        margin-left: 100px;
+        flex-direction: column;
+    }
+    .title {
+        margin: 0;
+    }
+    .middle {
+        margin-top: 0;
+    }
+    .mid {
+        margin-top: 150px;
+    }
+}

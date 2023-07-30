@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Lora;
+    src: url(../Font/static/Lora-Regular.ttf);
+}
+
+@font-face {
+    font-family: CrimsonPro;
+    src: url(../Font/static/CrimsonPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../Font//static/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Playfair;
+    src: url(../Font//static/PlayfairDisplay-Regular.ttf);
+}
